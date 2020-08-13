@@ -1,0 +1,74 @@
+.opt3CreateNewWarper {
+  background-color: #fff;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+.opt3CreateNew {
+  background: #fff;
+  padding: 0.5em 2rem;
+}
+
+.opt3CreateNewWarper .header {
+  padding: 1rem;
+  background: #000;
+  margin-bottom: 1rem;
+}
+
+.opt3CreateNewWarper .header:first-child {
+  color: #fff;
+}
+.opt3CreateNew .text1 {
+  color: #172736;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.opt3CreateNew .source {
+  display: flex;
+  align-items: center;
+}
+.opt3CreateNew .source > *:last-child {
+  font-weight: bold;
+}
+
+.opt3CreateNew .radio {
+  color: green !important;
+}
+
+.opt3CreateNew textarea{
+    resize: none;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 78%;
+    height: 150px;
+}
+
+.opt3CreateNew .text2 {
+    /* margin-bottom: 1rem; */
+    font-weight: bold;
+}
+
+.opt3CreateNew .date > *:nth-child(1) {
+    display: block;
+}
+
+.opt3CreateNew .date label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.opt3CreateNew .date input{
+    width: 10rem;
+}
+
+
+@media(max-width: 600px) {
+    .opt3CreateNew .text2 {
+        margin-bottom: 1rem;
+    }
+    .opt3CreateNew .date input{
+        margin-bottom: 1rem;
+    }        
+}

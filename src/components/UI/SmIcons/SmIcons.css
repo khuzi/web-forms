@@ -1,0 +1,23 @@
+.smIcons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #00172d;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1px 0;
+    border-bottom-left-radius: 8px;
+    height: 2rem;
+}
+
+.smIcons > *:first-child {
+    font-size: 14px;
+    background: #fff;    
+}
+.smIcons > *:last-child {
+    font-size: 14px;
+    background: #fff;
+}

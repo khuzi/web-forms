@@ -1,0 +1,18 @@
+.Searching{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 461px) {
+    .Searching {
+        text-align: center;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .input{
+        width: 6rem
+    }
+}
+

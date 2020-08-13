@@ -1,0 +1,39 @@
+.table {
+    max-height: 15rem;
+    overflow-y: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #fff;
+}
+
+.table li:nth-child(even) {
+    background-color: #eee;
+}
+.table li {
+    font-size: 12px;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+.table li .img {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+.table li i {
+    font-size: 0.6rem;
+    color: #aaa;
+}
+
+.table::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+.table::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+.table::-webkit-scrollbar-thumb {
+    background-color: #333;
+    outline: 1px solid slategrey;
+  }

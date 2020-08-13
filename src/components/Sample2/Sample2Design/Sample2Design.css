@@ -1,0 +1,68 @@
+.Design{
+    width:17%;
+    margin:6px;
+    color:#646262;
+    font-weight: bold;
+}
+.backColor{
+    background-color:#fffde2;
+    width: 99%;
+}
+.labelstyle{
+    font-size: 16px;
+}
+@media screen and (max-width: 1211px) {
+    .Design{
+        width:16%;
+        margin:5px;
+    }
+}
+
+@media screen and (max-width: 1089px) {
+    .Design{
+        width:14%;
+        margin:5px;
+    }
+}
+@media screen and (max-width: 957px) {
+    .Design{
+        width:18%;
+        margin:6px;
+
+    }
+    .backColor{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .Design{
+        width:16%;
+        margin:4.5px;
+
+    }
+}
+@media screen and (max-width: 502px) {
+    .Design{
+        width:14%;
+        margin:4px;
+
+    }
+}
+@media screen and (max-width: 410px) {
+    .Design{
+        width:13%;
+        margin:3px;
+        margin-top: 9px;
+    }
+    .labelstyle{
+        font-size:14px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .Design{
+        width:12%;
+        margin:2px;
+        margin-top: 9px;
+
+    }
+}

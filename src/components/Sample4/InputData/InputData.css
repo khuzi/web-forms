@@ -1,0 +1,51 @@
+
+.Input{
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 20%;
+}
+.select{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 20%;
+}
+div{
+    text-align: center;
+}
+@media screen and (max-width: 550px) {
+    .Input{
+        margin-top: 7%;
+    }
+    .select{
+        margin-top: 7%;
+
+    }
+ 
+}
+@media screen and (max-width: 392px) {
+    .Input{
+        margin-left: 2%;
+        margin-top: 15%;
+        width: 18%;
+    }
+    .select{
+        margin-top: 15%;
+        margin-left: 5%;
+        width: 21%;
+    }
+    div{
+        text-align: unset;
+    }
+}
+@media screen and (max-width: 338px) {
+    .Input{
+        margin-left: 2%;
+        margin-top: 15%;
+        width: 15%;
+    }
+        .select{
+            margin-top: 15%;
+            margin-left: 5%;
+            width: 20%;
+        }   
+     }

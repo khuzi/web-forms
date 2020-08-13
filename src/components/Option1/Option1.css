@@ -1,0 +1,44 @@
+.option1 {
+  background-color: #f4f4f4;
+  padding: 6rem 0;
+}
+.option1 .MuiContainer-root {
+  background: #fff;
+}
+
+.option1 .box1 {
+  background-color: #f4f4f4;
+  padding:  0.5rem;
+  border-radius: 5px;
+  height: 5rem;
+  overflow: auto;
+}
+
+.option1 .box1 > *:nth-child(1),
+.option1 .box1 > *:nth-child(2),
+.option1 .box1 > *:nth-child(3) {
+  font-size: 0.62rem;
+}
+
+@media (max-width: 480px) {
+  .option1 .box1 > *:nth-child(1),
+  .option1 .box1 > *:nth-child(2),
+  .option1 .box1 > *:nth-child(3) {
+    font-size: 8px;
+    margin: 0.5rem 0.5rem;
+  }
+}
+
+.option1 .box1::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2rem;
+}
+ 
+.option1 .box1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.option1 .box1::-webkit-scrollbar-thumb {
+  background-color: #222;
+  outline: 1px solid slategrey;
+}

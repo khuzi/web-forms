@@ -1,0 +1,29 @@
+.ManageDiv .create {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.create > .text-info {
+    display: flex;
+    align-items: center;
+}
+
+.text-info > *:last-child {
+    font-weight: bold;
+}
+
+.img-info i {
+    font-size: 2rem;
+    background: #f4f4f4;
+    padding: 1rem;
+} 
+
+@media(max-width: 600px) {
+    .ManageDiv .create {
+        margin: 0.5rem 1rem;
+    }
+}

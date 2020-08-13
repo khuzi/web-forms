@@ -1,0 +1,23 @@
+.heading {
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .heading .MuiTypography-h4 {
+    font-weight: bold;
+    color: #00172d;
+  }
+  .heading .headImg {
+    width: 2.5rem;
+    background-color: #00172d;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+  }
+
+  
+@media(max-width: '445px') { 
+  .heading .headImg {
+    width: 5rem;
+  }
+}

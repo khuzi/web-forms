@@ -1,0 +1,60 @@
+.checkBox1 {
+    color: green !important;
+}
+.select1 {
+    height: 2rem;
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+
+.input1 {
+    position: relative;
+    height: 2rem;
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+
+.inputLabel {
+    font-size: 10px;
+    position: absolute;
+    top: -25%;
+}
+
+@media(max-width: 1200px) {
+    .select1,.input1 {
+        width: 5rem;
+    }
+}
+
+@media(max-width: 1116px) {
+    .select1,.input1 {
+        width: 4rem;
+    }
+}
+
+
+@media(max-width: 950px) {
+    .select1,.input1 {
+        width: 6rem;
+    }
+}
+@media(max-width: 672px) {
+    .select1,.input1 {
+        width: 4rem;
+    }
+} 
+
+@media(max-width: 454px) {
+    .select1,.input1 {
+        width: 3rem;
+    }
+    .inputLabel {
+        display: none;
+    }
+} 
+
+@media(max-width: 342px) {
+    .select1,.input1 {
+        width: 2.8rem;
+    }
+} 

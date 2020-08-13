@@ -1,0 +1,17 @@
+.side-container {
+    background: #fffde2;
+    padding: 0.5rem;
+}
+.side-container .top-heading {
+    background: var(--primary);
+    padding: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.side-container .top-heading > *:first-child {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+

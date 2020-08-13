@@ -1,0 +1,9 @@
+.ManageExisting {
+    padding: 1rem;
+    background-color: #fff;
+}
+.ManageExisting .MuiTypography-h4 {
+    color: #00172d;
+    margin: 1rem 0;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.ListTable {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin-top: 2rem;
+}
+
+
+.ListTable .listWarper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ListTable .listWarper:focus {
+    outline: 2px solid black;
+}
+
+.ListTable .listWarper .item1 {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.ListTable .listWarper .item2 {
+  background: #fff;
+  padding: 0 0.3rem;
+  border-radius: 2px;
+}
+
+.ListTable .downBtn {
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  width: 90%;
+  margin: auto;
+  border-radius: 2px;
+  padding: 0.1rem;
+}
+
+.ListTable .downBtn:hover {
+  background-color: #000;
+}
+
+.ListTable .downBtn i {
+  color: #fff;
+}
+
+.tableCell {
+  border: none;
+}
