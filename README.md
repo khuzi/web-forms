@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##First af all you need to install node in your pc then run these commands in your terminal as written below.
+### First af all you need to install node in your pc then run these commands in your terminal as written below.
 
-##How to run this project in your pc.
+### How to run this project in your pc.
 1. Enter command in terminal: yarn or npm install
 2. Enter command in terminal: yarn start / npm start
 
